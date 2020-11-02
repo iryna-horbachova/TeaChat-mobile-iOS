@@ -1,0 +1,6 @@
+framework module Pods_TeaChat {
+  umbrella header "Pods-TeaChat-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,9 +12,21 @@
 		89EB158C25507C890006532F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EB158B25507C890006532F /* ViewController.swift */; };
 		89EB159125507C8A0006532F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EB159025507C8A0006532F /* Assets.xcassets */; };
 		89EB159425507C8A0006532F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89EB159225507C8A0006532F /* LaunchScreen.storyboard */; };
+		89EB15A225507F830006532F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89EB15A125507F830006532F /* GoogleService-Info.plist */; };
+		89EF691B2550A13700170707 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EF691A2550A13700170707 /* SignInViewController.swift */; };
+		89EF691F2550A16700170707 /* TCTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EF691E2550A16700170707 /* TCTextField.swift */; };
+		89EF69222550A26300170707 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EF69212550A26300170707 /* Constants.swift */; };
+		89EF69252550A29900170707 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EF69242550A29900170707 /* Extensions.swift */; };
+		89EF69282550A2DE00170707 /* TCButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EF69272550A2DE00170707 /* TCButton.swift */; };
+		89EF692B2550A34F00170707 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EF692A2550A34F00170707 /* SignUpViewController.swift */; };
+		89EF69382550A3EE00170707 /* TCImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EF69372550A3EE00170707 /* TCImageView.swift */; };
+		89EF693B2550A99800170707 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EF693A2550A99800170707 /* SignInButton.swift */; };
+		89EF69422550ABF900170707 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EF69412550ABF900170707 /* Authentication.swift */; };
+		C5261DCD6BF5712CCF63EAEC /* Pods_TeaChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D70EE5012CADB23548C32F /* Pods_TeaChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64D70EE5012CADB23548C32F /* Pods_TeaChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeaChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EB158425507C890006532F /* TeaChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeaChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EB158725507C890006532F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89EB158925507C890006532F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -22,6 +34,18 @@
 		89EB159025507C8A0006532F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89EB159325507C8A0006532F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89EB159525507C8A0006532F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89EB15A125507F830006532F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		89EF691A2550A13700170707 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		89EF691E2550A16700170707 /* TCTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCTextField.swift; sourceTree = "<group>"; };
+		89EF69212550A26300170707 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		89EF69242550A29900170707 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		89EF69272550A2DE00170707 /* TCButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCButton.swift; sourceTree = "<group>"; };
+		89EF692A2550A34F00170707 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		89EF69372550A3EE00170707 /* TCImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCImageView.swift; sourceTree = "<group>"; };
+		89EF693A2550A99800170707 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
+		89EF69412550ABF900170707 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		8CB92680F9C69B0AFB0B05EF /* Pods-TeaChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeaChat.debug.xcconfig"; path = "Target Support Files/Pods-TeaChat/Pods-TeaChat.debug.xcconfig"; sourceTree = "<group>"; };
+		EC415F2583CEF4C9D4604319 /* Pods-TeaChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeaChat.release.xcconfig"; path = "Target Support Files/Pods-TeaChat/Pods-TeaChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5261DCD6BF5712CCF63EAEC /* Pods_TeaChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		144E0B8967193D68C2676BDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CB92680F9C69B0AFB0B05EF /* Pods-TeaChat.debug.xcconfig */,
+				EC415F2583CEF4C9D4604319 /* Pods-TeaChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		89EB157B25507C890006532F = {
 			isa = PBXGroup;
 			children = (
 				89EB158625507C890006532F /* TeaChat */,
 				89EB158525507C890006532F /* Products */,
+				144E0B8967193D68C2676BDC /* Pods */,
+				B2AFF1CD9BACFCE50A1EA194 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,72 @@
 		89EB158625507C890006532F /* TeaChat */ = {
 			isa = PBXGroup;
 			children = (
-				89EB158725507C890006532F /* AppDelegate.swift */,
-				89EB158925507C890006532F /* SceneDelegate.swift */,
+				89EF691D2550A13B00170707 /* UIComponents */,
+				89EF691925508E8400170707 /* API */,
+				89EF691825508E7E00170707 /* Models */,
+				89EF691725508E6900170707 /* Authentication */,
+				89EF691625508E5000170707 /* App */,
+				89EB15A125507F830006532F /* GoogleService-Info.plist */,
 				89EB158B25507C890006532F /* ViewController.swift */,
-				89EB159025507C8A0006532F /* Assets.xcassets */,
 				89EB159225507C8A0006532F /* LaunchScreen.storyboard */,
 				89EB159525507C8A0006532F /* Info.plist */,
 			);
 			path = TeaChat;
+			sourceTree = "<group>";
+		};
+		89EF691625508E5000170707 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				89EB159025507C8A0006532F /* Assets.xcassets */,
+				89EB158925507C890006532F /* SceneDelegate.swift */,
+				89EB158725507C890006532F /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		89EF691725508E6900170707 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				89EF691A2550A13700170707 /* SignInViewController.swift */,
+				89EF692A2550A34F00170707 /* SignUpViewController.swift */,
+				89EF69412550ABF900170707 /* Authentication.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		89EF691825508E7E00170707 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		89EF691925508E8400170707 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		89EF691D2550A13B00170707 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				89EF691E2550A16700170707 /* TCTextField.swift */,
+				89EF69212550A26300170707 /* Constants.swift */,
+				89EF69242550A29900170707 /* Extensions.swift */,
+				89EF69272550A2DE00170707 /* TCButton.swift */,
+				89EF69372550A3EE00170707 /* TCImageView.swift */,
+				89EF693A2550A99800170707 /* SignInButton.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		B2AFF1CD9BACFCE50A1EA194 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64D70EE5012CADB23548C32F /* Pods_TeaChat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89EB159825507C8A0006532F /* Build configuration list for PBXNativeTarget "TeaChat" */;
 			buildPhases = (
+				3BE057EBEC4AD7276B62EC78 /* [CP] Check Pods Manifest.lock */,
 				89EB158025507C890006532F /* Sources */,
 				89EB158125507C890006532F /* Frameworks */,
 				89EB158225507C890006532F /* Resources */,
+				0F908AA3E75F7B51568E174C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,19 +219,71 @@
 			files = (
 				89EB159425507C8A0006532F /* LaunchScreen.storyboard in Resources */,
 				89EB159125507C8A0006532F /* Assets.xcassets in Resources */,
+				89EB15A225507F830006532F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F908AA3E75F7B51568E174C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeaChat/Pods-TeaChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TeaChat/Pods-TeaChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TeaChat/Pods-TeaChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BE057EBEC4AD7276B62EC78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TeaChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		89EB158025507C890006532F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89EF693B2550A99800170707 /* SignInButton.swift in Sources */,
+				89EF691B2550A13700170707 /* SignInViewController.swift in Sources */,
 				89EB158C25507C890006532F /* ViewController.swift in Sources */,
 				89EB158825507C890006532F /* AppDelegate.swift in Sources */,
 				89EB158A25507C890006532F /* SceneDelegate.swift in Sources */,
+				89EF69282550A2DE00170707 /* TCButton.swift in Sources */,
+				89EF691F2550A16700170707 /* TCTextField.swift in Sources */,
+				89EF692B2550A34F00170707 /* SignUpViewController.swift in Sources */,
+				89EF69222550A26300170707 /* Constants.swift in Sources */,
+				89EF69252550A29900170707 /* Extensions.swift in Sources */,
+				89EF69382550A3EE00170707 /* TCImageView.swift in Sources */,
+				89EF69422550ABF900170707 /* Authentication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +419,7 @@
 		};
 		89EB159925507C8A0006532F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CB92680F9C69B0AFB0B05EF /* Pods-TeaChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,6 +440,7 @@
 		};
 		89EB159A25507C8A0006532F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC415F2583CEF4C9D4604319 /* Pods-TeaChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
